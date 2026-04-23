@@ -19,41 +19,42 @@ When I'm not in front of a screen, I'm at the pool table or trying out a new rec
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=plastic&logo=apachespark&logoColor=black) ![PySpark](https://img.shields.io/badge/PySpark-FDEE21?style=plastic&logo=apachespark&logoColor=black) ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=plastic&logo=databricks&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=plastic&logo=anaconda&logoColor=white)
 
 **Databases**
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=plastic&logo=snowflake&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=plastic&logo=microsoft%20sql%20server&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=plastic&logo=snowflake&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=plastic&logo=microsoft%20sql%20server&logoColor=white)
 
 **Libraries**
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black)
 
 **BI & Tools**
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=plastic&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=plastic&logo=tableau&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=plastic&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=plastic&logo=tableau&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=plastic&logo=streamlit&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white)
 
 ---
 
 ## 🚀 Projects I'm Proud Of
 
+**[Instacart Analytics Platform](https://github.com/akshaygovindd/instacart-sql-analytics)** | [Live Demo](https://instacart-sql-dashboard.streamlit.app)
+End-to-end grocery retail analytics on 3.4M real orders. PostgreSQL schema, 7 SQL files from basic joins to RFM segmentation, and a deployed Streamlit dashboard.
+
+`PostgreSQL` `Python` `Streamlit` `Plotly` `SQL`
+
+---
+
 **[FoodLens — Databricks Data Pipeline](https://github.com/akshaygovindd/FoodLens-Databricks-Pipeline)**
-End-to-end Medallion Architecture pipeline ingesting 387,000+ food inspection records from Chicago and Dallas. Built Bronze, Silver, and Gold Delta layers with DQX validation, SCD Type 2 for restaurants, and a Kimball star schema for analytics. Loaded into Power BI for dashboards.
+Medallion Architecture pipeline ingesting 387K+ food inspection records from Chicago and Dallas. Bronze to Gold Delta layers, DQX validation, SCD Type 2, and a Kimball star schema for BI reporting.
 
-- Processed 387,000+ records across 2 cities with completely different schemas
-- Built custom DQX engine — dropped 1,300 bad rows before anything reached Gold
-- Star schema with 1.17M+ fact violation rows ready for BI reporting
+`Databricks` `PySpark` `Delta Lake` `SQL` `Power BI`
 
-`Databricks` `PySpark` `Delta Lake` `SQL` `Power BI` `Unity Catalog`
+---
 
 **[Wildfire Cause Prediction](https://github.com/akshaygovindd/Wildfire-Cause-Prediction)**
-Binary classifier on 1.88 million rows of USDA wildfire data (1992–2015). Predicted human vs lightning-caused fires. Tackled 83.8% class imbalance using F1 and ROC-AUC as primary metrics. Trained and compared 5 ML models.
+Binary classifier on 1.88M rows of USDA wildfire data. Compared 5 ML models on heavily imbalanced data, tuned Random Forest to F1 = 0.9598.
 
-- Engineered 5 features from scratch including State Fire Rate and Region
-- Tuned Random Forest achieved F1 = 0.9598 on heavily imbalanced data
-- Compared Logistic Regression, SVM, KNN, Decision Tree, and Random Forest
-
-`Python` `Scikit-learn` `Pandas` `Matplotlib` `Seaborn` `Jupyter`
+`Python` `Scikit-learn` `Pandas` `Matplotlib`
 
 ---
 
 ## 🎯 Currently
 
-- 🔄 Deep diving into Databricks and Delta Lake architecture
+- 🔄 Building end-to-end SQL analytics projects with PostgreSQL and Streamlit
 - 📊 Sharpening Power BI and DAX for BI roles
 - 🤖 Exploring MLflow and XGBoost
 - 🎓 Finishing my MS at Northeastern (Dec 2026)
