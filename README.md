@@ -6,7 +6,7 @@ I turn raw, messy data into clean pipelines and meaningful insights. Currently p
 
 When I'm not in front of a screen, I'm at the pool table or trying out a new recipe.
 
-📍 Boston | ✉️ [akshaygovind06@gmail.com](mailto:govind.ak@northeastern.edu) | 💼 [LinkedIn](https://linkedin.com/in/akshaygovind06/)
+📍 Boston | ✉️ [govind.ak@northeastern.edu](mailto:govind.ak@northeastern.edu) | 💼 [LinkedIn](https://linkedin.com/in/akshaygovind06/)
 
 ---
 
