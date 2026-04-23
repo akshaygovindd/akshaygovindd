@@ -57,17 +57,7 @@ Binary classifier on 1.88M rows of USDA wildfire data. Compared 5 ML models on h
 - 🔄 Building end-to-end SQL analytics projects with PostgreSQL and Streamlit
 - 📊 Sharpening Power BI and DAX for BI roles
 - 🤖 Exploring MLflow and XGBoost
-- 🎓 Finishing my MS at Northeastern (Dec 2026)
-
----
-
-## 📊 GitHub Stats
-![](https://github-readme-stats.shion.dev/api?username=akshaygovindd&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)
-![](https://streak-stats.demolab.com/?user=akshaygovindd&theme=tokyonight&hide_border=false)
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=akshaygovindd&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=akshaygovindd&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4)
+- 🎓 Finishing my MS at Northeastern (Dec 2027)
 
 ---
 
